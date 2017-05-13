@@ -1,6 +1,6 @@
 <?php
 
-<?php
+
 
 ob_start();
 $content= file_get_contents("php://input");
@@ -26,6 +26,5 @@ sendMessage([
 
 ]);
 file_put_contents("log",ob_get_clean());
-?>
 
 ?>
